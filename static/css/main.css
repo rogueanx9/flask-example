@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header#navbar {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+span#logo {
+  font-size: 48px;
+  color: teal;
+  text-transform: uppercase;
+}
+
+ul#nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li#nav__item > a,
+li#nav__item > a:active,
+li#nav__item > a:link,
+li#nav__item > a:visited,
+li#nav__item > a:hover {
+  text-decoration: none;
+}
+
+li#nav__item > a {
+  margin: 0 5px;
+  color: teal;
+}
+
+div#container {
+  height: 100%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid teal;
+  color: teal;
+}
